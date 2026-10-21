@@ -1,0 +1,26 @@
+# 실제 API 키와 환경 설정
+.env
+.env.*
+!.env.example
+
+# 가상환경
+.venv/
+venv/
+
+# Python 임시 파일
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# 데이터베이스와 관련 임시 파일
+*.db
+*.db-*
+*.sqlite*
+
+# 로컬 작업 결과
+tmp/
+output/
+
+# 편집기 및 운영체제 설정
+.vscode/
+.DS_Store
